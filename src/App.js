@@ -12,9 +12,11 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
+import Services from "./components/services/index.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
+
   width: 100%;
   overflow-x: hidden;
 `
@@ -35,8 +37,11 @@ function App() {
         <Body>
           <HeroSection />
           <Wrapper>
+<Services/>
+          </Wrapper>
+          <Wrapper>
+          {/* <Experience /> */}
             <Skills />
-            <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>

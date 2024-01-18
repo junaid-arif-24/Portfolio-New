@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-  background: ${({ theme }) => theme.card_light};
+background: rgb(24,26,80);
+background: linear-gradient(137deg, rgba(24,26,80,1) 0%, rgba(85,6,23,1) 30%, rgba(45,3,23,1) 61%, rgba(66,15,56,1) 100%);
   display: flex;
   justify-content: center;
   position: relative;
@@ -44,7 +45,9 @@ export const HeroBg = styled.div`
 export const HeroInnerContainer = styled.div`
   position: relative;
   display: flex;
-  justify-content: space-between;
+  flex-direction:column;
+  justify-content: center;
+
   align-items: center;
   width: 100%;
   max-width: 1100px;
@@ -112,10 +115,11 @@ export const Img = styled.img`
 `;
 
 export const Title = styled.div`
-  font-weight: 700;
+  font-weight: bolder;
   font-size: 50px;
+  text-align:center;
   color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
+  line-height: 70px;
   @media (max-width: 960px) {
     text-align: center;
   }
@@ -150,10 +154,13 @@ export const Span = styled.span`
 `;
 
 export const SubTitle = styled.div`
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 18px;
+  line-height: 42px;
   margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
+  margin-top:20px;
+  text-align: center;
+  color: white;
+  width:70%;
 
   @media (max-width: 960px) {
     text-align: center;
