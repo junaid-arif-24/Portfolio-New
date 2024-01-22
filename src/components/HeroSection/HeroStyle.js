@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.div`
 background: rgb(47,22,31);
-background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(27,29,59,1) 23%, rgba(14,14,34,1) 53%, rgba(29,23,23,1) 86%);
+background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(10,11,22,1) 23%, rgba(14,14,34,1) 53%, rgba(29,23,23,1) 86%);
   display: flex;
   justify-content: center;
   position: relative;
