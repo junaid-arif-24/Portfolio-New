@@ -1,14 +1,16 @@
 export const Bio = {
-  title:"We build strategically-driven websites that enhance online presence and boost sales.",
+  title:
+    "We build strategically-driven websites that enhance online presence and boost sales.",
   roles: ["Full Stack Developer", "Frontend Developer", "Programmer"],
-  description:" Relinquish the weight of responsibility. we've got your back. Devote your energy to propelling your business forward and conquering your loftiest aspirations.",
+  description:
+    " Relinquish the weight of responsibility. we've got your back. Devote your energy to propelling your business forward and conquering your loftiest aspirations.",
   github: "https://github.com/junaid-arif-24",
   resume:
     "https://drive.google.com/file/d/1WqXJuVdU8DU4XXJMRhxonUDSeri3sP6h/view?usp=sharing",
   linkedin: "https://www.linkedin.com/company/hexodeitsolutions/",
   twitter: "https://x.com/hexodeitsoln?s=11",
   insta: "https://www.instagram.com/hexodeitsolutions?igsh=d3VtbTF2ZHg3YmZl",
-  phoneNumber: 'tel:+918171414345'
+  phoneNumber: "tel:+917500780309",
 };
 
 export const skills = [
@@ -20,25 +22,40 @@ export const skills = [
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
+      // {
+      //   name: "Redux",
+      //   image:
+      //     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+      // },
       {
         name: "Recoil",
         image:
           "https://seeklogo.com/images/R/recoil-js-logo-0FA612F129-seeklogo.com.png",
       },
+      {
+        name: "Next Js",
+        image:
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+      },
+      {
+        name: "WordPress",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png",
+      },
+      {
+        name: "Shopify",
+        image: "https://i.ibb.co/0t68JyF/jjj-removebg-preview.png",
+      },
       // {
-      //   name: 'Next Js',
-      //   image:
-      //     'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=',
+      //   name: "HTML",
+      //   image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       // },
       {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        name: "CSS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       },
+      
       {
         name: "CSS",
         image:
@@ -63,11 +80,6 @@ export const skills = [
         name: "Material UI",
         image:
           "https://seeklogo.com/images/M/material-ui-logo-5BDCB9BA8F-seeklogo.com.png",
-      },
-      {
-        name: "React Native",
-        image:
-          "https://seeklogo.com/images/R/react-native-logo-221C671C70-seeklogo.com.png",
       },
     ],
   },
@@ -121,8 +133,7 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+        image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "GitHub",
@@ -146,13 +157,12 @@ export const skills = [
       },
       {
         name: "Postman",
-        image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+        image: "https://cdn.worldvectorlogo.com/logos/postman.svg",
       },
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format",
       },
     ],
   },
@@ -268,7 +278,7 @@ export const projects = [
     ],
     category: "Full Stack",
     github: "",
-    webapp: "",
+    webapp: "https://www.wellairsolutions.com/",
   },
 
   {
@@ -291,7 +301,7 @@ export const projects = [
     ],
     category: "Full Stack",
     github: "",
-    webapp: "",
+    webapp: "https://www.hpone.com/",
   },
   {
     id: 7,
@@ -310,7 +320,7 @@ export const projects = [
     ],
     category: "Frontend",
     github: "",
-    webapp: "",
+    webapp: "https://lushventures.in/",
   },
   {
     id: 8,
@@ -329,13 +339,14 @@ export const projects = [
     ],
     category: "Full Stack",
     github: "",
-    webapp: "",
+    webapp: "https://saddaloan.com/",
   },
   {
     id: 4,
     title: "Champhunt",
     date: "Mar 2023 - Aug 2023",
-    description: "Welcome to Champ Hunt, your ultimate destination for all things cricket, crafted using the dynamic MERN stack. As the virtual adda for cricket enthusiasts, we provide a space for fans to connect, share opinions, engage in discussions, and analyze games.What sets Champ Hunt apart is its reward-based platform. Every registered fan earns runs for various activities, and users can also give runs to others' posts. Accumulated runs can be redeemed for exclusive deals from our partners, rewarding your passion for cricket. Join Champ Hunt, where MERN technology enhances your cricket experience, making it more interactive and rewarding.",
+    description:
+      "Welcome to Champ Hunt, your ultimate destination for all things cricket, crafted using the dynamic MERN stack. As the virtual adda for cricket enthusiasts, we provide a space for fans to connect, share opinions, engage in discussions, and analyze games.What sets Champ Hunt apart is its reward-based platform. Every registered fan earns runs for various activities, and users can also give runs to others' posts. Accumulated runs can be redeemed for exclusive deals from our partners, rewarding your passion for cricket. Join Champ Hunt, where MERN technology enhances your cricket experience, making it more interactive and rewarding.",
     image: "https://i.ibb.co/zJ9W78N/Screenshot-89.png",
     tags: [
       "React",
@@ -346,49 +357,69 @@ export const projects = [
     ],
     category: "Full Stack",
     github: "",
-    webapp: "",
+    webapp: "https://www.champhunt.com/pitch",
+  },
+  {
+    id: 1,
+    title: "Babynama",
+    date: "Oct 2023 - Jan 2023",
+    description:
+      "Babynama is a revolutionary digital platform providing 24/7 support and personalized pediatric care for new mothers and infants. Utilizing a tech stack featuring JavaScript, TypeScript, React, NextJS, PostgresSQL, AWS, and Django, Babynama delivers a seamless user experience. The platform ensures accessibility through WhatsApp and Video Call functionalities, offering invaluable assistance during the critical early stages of parenthood. Babynama's innovative approach combines cutting-edge technologies to empower new parents, fostering a nurturing environment for the well-being of both mothers and infants.",
+    image: "https://i.ibb.co/hVLTbPZ/Screenshot-96.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ReactJs",
+      "NextJs",
+      "Tailwind",
+      "MUI",
+      "Netlify",
+      "AWS",
+    ],
+    category: "Full Stack",
+    github: "",
+    webapp: "https://babynama.com/",
   },
 ];
 
 export const services = [
   {
-    title:"Web Development and Redesign",
-    image:"https://i.ibb.co/WsvXfjW/atom-removebg-preview.png",
-    desc:"Tailored Web Design for Your Unique Requirements. We formulate strategies that help you shine like a star!",
-  }
-  ,
-  {
-    title:"Wordpress & Shopify Web Development",
-    image:"https://i.ibb.co/5vhbc8m/website-codes-removebg-preview.png",
-    desc:"Want to go live affordably? Don't worry we've got you covered.",
+    title: "Web Development and Redesign",
+    image: "https://i.ibb.co/WsvXfjW/atom-removebg-preview.png",
+    desc: "Tailored Web Design for Your Unique Requirements. We formulate strategies that help you shine like a star!",
   },
   {
-    title:"Web Maintenance",
-    image:"https://i.ibb.co/3cNh2Hs/agreement-removebg-preview.png",
-    desc:"Every business requires a dependable website that remains consistently operational. We ensure a smooth journey with no disruptions.",
-  }
+    title: "Wordpress & Shopify Web Development",
+    image: "https://i.ibb.co/5vhbc8m/website-codes-removebg-preview.png",
+    desc: "Want to go live affordably? Don't worry we've got you covered.",
+  },
+  {
+    title: "Web Maintenance",
+    image: "https://i.ibb.co/3cNh2Hs/agreement-removebg-preview.png",
+    desc: "Every business requires a dependable website that remains consistently operational. We ensure a smooth journey with no disruptions.",
+  },
+];
 
-]
-
-export const working =[
+export const working = [
   {
-    number:1,
-    title:"Research",
-    "desc":"By comprehending the intricacies of your business and objectives, we devise customized strategies designed to leave a lasting impression in the ever-evolving landscape of today.",
+    number: 1,
+    title: "Research",
+    desc: "By comprehending the intricacies of your business and objectives, we devise customized strategies designed to leave a lasting impression in the ever-evolving landscape of today.",
   },
   {
-    number:2,
-    title:"Design",
-    "desc":" we seamlessly integrate artistic finesse with practical functionality, crafting visually enchanting and user-centric experiences.",
+    number: 2,
+    title: "Design",
+    desc: " we seamlessly integrate artistic finesse with practical functionality, crafting visually enchanting and user-centric experiences.",
   },
   {
-    number:3,
-    title:"Build",
-    "desc":"Adhering to industry best practices, we construct a search engine optimized and responsive website that mirrors the diligence of your endeavors.",
+    number: 3,
+    title: "Build",
+    desc: "Adhering to industry best practices, we construct a search engine optimized and responsive website that mirrors the diligence of your endeavors.",
   },
   {
-    number:4,
-    title:"Deliver",
-    "desc":"We rigorously conduct iterative testing until we achieve optimal results, delivering a final product that instills pride and satisfaction.",
-  }
-]
+    number: 4,
+    title: "Deliver",
+    desc: "We rigorously conduct iterative testing until we achieve optimal results, delivering a final product that instills pride and satisfaction.",
+  },
+];

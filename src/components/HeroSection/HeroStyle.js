@@ -13,7 +13,7 @@ background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(10,11,22,1) 23%, r
   @media (max-width: 640) {
     padding: 32px 16px;
   }
-  z-index: 1;
+  ${'' /* z-index: 1; */}
 
   ${'' /* clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%); */}
 `;
