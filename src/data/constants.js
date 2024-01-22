@@ -5,9 +5,10 @@ export const Bio = {
   github: "https://github.com/junaid-arif-24",
   resume:
     "https://drive.google.com/file/d/1WqXJuVdU8DU4XXJMRhxonUDSeri3sP6h/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/mohd-junaid-24sep2000",
-  twitter: "https://twitter.com/JunaidArif24",
-  insta: "https://www.instagram.com/junaid_arif24/",
+  linkedin: "https://www.linkedin.com/company/hexodeitsolutions/",
+  twitter: "https://x.com/hexodeitsoln?s=11",
+  insta: "https://www.instagram.com/hexodeitsolutions?igsh=d3VtbTF2ZHg3YmZl",
+  phoneNumber: 'tel:+918171414345'
 };
 
 export const skills = [

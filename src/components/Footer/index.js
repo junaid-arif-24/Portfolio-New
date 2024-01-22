@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import CallIcon from '@mui/icons-material/Call';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -99,6 +100,8 @@ function Footer() {
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.phoneNumber} target="target" rel="oopener noreferrer"><CallIcon /></SocialMediaIcon>
+
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 Hexode. All rights reserved.
