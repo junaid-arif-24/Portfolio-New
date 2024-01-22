@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-background: rgb(24,26,80);
-background: linear-gradient(137deg, rgba(24,26,80,1) 0%, rgba(85,6,23,1) 30%, rgba(45,3,23,1) 61%, rgba(66,15,56,1) 100%);
+background: rgb(47,22,31);
+background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(27,29,59,1) 23%, rgba(14,14,34,1) 53%, rgba(29,23,23,1) 86%);
   display: flex;
   justify-content: center;
   position: relative;
@@ -114,9 +114,9 @@ export const Img = styled.img`
   }
 `;
 
-export const Title = styled.div`
-  font-weight: bolder;
-  font-size: 50px;
+export const Title = styled.h1`
+  font-weight: 900;
+  font-size: 60px;
   text-align:center;
   color: ${({ theme }) => theme.text_primary};
   line-height: 70px;

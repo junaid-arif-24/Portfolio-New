@@ -13,6 +13,7 @@ import Experience from "./components/Experience";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 import Services from "./components/services/index.js";
+import Work from "./components/work/index.js";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -38,6 +39,8 @@ function App() {
           <HeroSection />
           <Wrapper>
 <Services/>
+<Work/>
+
           </Wrapper>
           <Wrapper>
           {/* <Experience /> */}

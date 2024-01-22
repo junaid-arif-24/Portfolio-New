@@ -351,20 +351,43 @@ export const projects = [
 
 export const services = [
   {
-    title:"",
-    image:"",
-    desc:"",
+    title:"Web Development and Redesign",
+    image:"https://i.ibb.co/WsvXfjW/atom-removebg-preview.png",
+    desc:"Tailored Web Design for Your Unique Requirements. We formulate strategies that help you shine like a star!",
   }
   ,
   {
-    title:"",
-    image:"",
-    desc:"",
+    title:"Wordpress & Shopify Web Development",
+    image:"https://i.ibb.co/5vhbc8m/website-codes-removebg-preview.png",
+    desc:"Want to go live affordably? Don't worry we've got you covered.",
   },
   {
-    title:"",
-    image:"",
-    desc:"",
+    title:"Web Maintenance",
+    image:"https://i.ibb.co/3cNh2Hs/agreement-removebg-preview.png",
+    desc:"Every business requires a dependable website that remains consistently operational. We ensure a smooth journey with no disruptions.",
   }
 
+]
+
+export const working =[
+  {
+    number:1,
+    title:"Research",
+    "desc":"By comprehending the intricacies of your business and objectives, we devise customized strategies designed to leave a lasting impression in the ever-evolving landscape of today.",
+  },
+  {
+    number:2,
+    title:"Design",
+    "desc":" we seamlessly integrate artistic finesse with practical functionality, crafting visually enchanting and user-centric experiences.",
+  },
+  {
+    number:3,
+    title:"Build",
+    "desc":"Adhering to industry best practices, we construct a search engine optimized and responsive website that mirrors the diligence of your endeavors.",
+  },
+  {
+    number:4,
+    title:"Deliver",
+    "desc":"We rigorously conduct iterative testing until we achieve optimal results, delivering a final product that instills pride and satisfaction.",
+  }
 ]
