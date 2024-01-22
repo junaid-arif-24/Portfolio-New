@@ -102,9 +102,12 @@ const CircleNumberContainer = styled.div`
 `;
 
 const ColorHeading = styled.b`
-font-weight:900;
-color:linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%);
-`
+  font-weight: bold;
+  background: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%);
+  background-clip: text; /* Clip the gradient to the text */
+  -webkit-background-clip: text; /* For older webkit browsers */
+  color: transparent; /* Set the text color to transparent */
+`;
 
 // @media (max-width: 768px) {
 //   ${CircleElement} {
