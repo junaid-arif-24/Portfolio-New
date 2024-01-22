@@ -3,13 +3,15 @@ import styled from 'styled-components';
 
 
 export const Nav = styled.div`
-    background-color: ${({theme}) => theme.card_light};
+${'' /* 
+    background: rgb(47,22,31);
+background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(10,11,22,1) 23%, rgba(14,14,34,1) 53%, rgba(29,23,23,1) 86%); */}
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    position: sticky;
+    ${'' /* position: sticky; */}
     top: 0;
     z-index: 10;
     @media (max-width: 960px) {
@@ -47,8 +49,8 @@ export const NavItems = styled.ul`
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content:center;
-    gap: 32px;
+    justify-content:flex-end;
+    gap: 75px;
     padding: 0 6px;
     list-style: none;
 

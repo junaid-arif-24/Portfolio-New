@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-background: rgb(47,22,31);
-background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(10,11,22,1) 23%, rgba(14,14,34,1) 53%, rgba(29,23,23,1) 86%);
+${'' /* background: rgb(47,22,31);
+background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(10,11,22,1) 23%, rgba(14,14,34,1) 53%, rgba(29,23,23,1) 86%); */}
   display: flex;
   justify-content: center;
   position: relative;
@@ -15,7 +15,7 @@ background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(10,11,22,1) 23%, r
   }
   z-index: 1;
 
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+  ${'' /* clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%); */}
 `;
 
 export const HeroBg = styled.div`
@@ -50,7 +50,7 @@ export const HeroInnerContainer = styled.div`
 
   align-items: center;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
 
   @media (max-width: 960px) {
     flex-direction: column;

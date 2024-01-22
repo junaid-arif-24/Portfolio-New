@@ -189,63 +189,63 @@ export const experiences = [
 ];
 
 export const projects = [
-  {
-    id: 0,
-    title: "LearnEra",
-    date: "Jul 2023 - Aug 2023",
-    description:
-      "LearnEra is a meticulously crafted online platform designed to facilitate seamless transactions in the realm of online education. Utilizing the power of the MERN (MongoDB, Express.js, React, Node.js) tech stack, I meticulously developed a comprehensive solution that caters to both administrators and learners.",
-    image: "https://i.ibb.co/3hQjfCZ/Screenshot-from-2023-09-07-22-09-26.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Recoil",
-      "MUI",
-      "CSS",
-      "AWS",
-    ],
-    category: "Full Stack",
-    github: "https://github.com/junaid-arif-24/LearnEra.git",
-    webapp: "https://learn-era-admin.vercel.app/",
-  },
-  {
-    id: 1,
-    title: "Real Time Code Editor",
-    date: "Sep 2022 - Nov 2023",
-    description:
-      "Real Time Code Editor is a dynamic web application that seamlessly bridges interactions among multiple users within a single collaborative session. By meticulously executing code synchronization mechanisms, I enabled real-time collaboration among users, ensuring that changes made by each collaborator are immediately reflected for all. This was achieved through the strategic implementation of the socket.io library, which facilitated real-time connectivity and efficient message broadcasting, thus fostering a highly interactive and collaborative virtual environment.",
-    image: "https://i.ibb.co/N6xM111/Screenshot-from-2023-09-07-22-08-46.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "CodeMirror", "AWS"],
-    category: "Full Stack",
-    github: "https://github.com/junaid-arif-24/Real-time-code-sync-editor.git",
-    webapp: "https://codeeditor.millionaireupstart.com/",
-  },
-  {
-    id: 2,
-    title: "MyOnlineMeal",
-    date: "Jan 2023 - Feb 2023",
-    description:
-      "MyOnlineMeal stands as an inventive online food delivery platform brought to life through the synergy of ReactJS and JavaScript. By meticulously crafting intuitive user interfaces and incorporating dynamic features, I significantly heightened user engagement and satisfaction. Leveraging the power of ReactJS components and libraries, I efficiently managed and presented food menus, while also streamlining the intricacies of order processing. The result is a seamless and delightful dining experience for users, exemplifying the potential of innovative technology in the culinary landscape.",
-    image: "https://i.ibb.co/882gcQb/Screenshot-from-2023-09-07-22-14-12.png",
-    tags: ["React", "JavaScript", "CSS", "AWS"],
-    category: "Frontend",
-    github: "https://github.com/junaid-arif-24/MyOnlineMeal.git",
-    webapp: "https://my-online-meal-24.netlify.app/",
-  },
-  {
-    id: 3,
-    title: "TodoApp",
-    date: "Jun 2023 - July 2023",
-    description:
-      "Todo is a user-friendly single-page application developed to streamline task management using the React Js. By seamlessly integrating this technology, I designed a cohesive platform that allows users to efficiently organize, update, and monitor their tasks.",
-    image: "https://i.ibb.co/SNK6dyY/Screenshot-from-2023-09-07-22-10-21.png",
-    tags: ["React Js", "JavaScript", "CSS", "Netlify"],
-    category: "Frontend",
-    github: "https://github.com/junaid-arif-24/TodoApp.git",
-    webapp: "https://todo-app-junaid.netlify.app/",
-  },
+  // {
+  //   id: 0,
+  //   title: "LearnEra",
+  //   date: "Jul 2023 - Aug 2023",
+  //   description:
+  //     "LearnEra is a meticulously crafted online platform designed to facilitate seamless transactions in the realm of online education. Utilizing the power of the MERN (MongoDB, Express.js, React, Node.js) tech stack, I meticulously developed a comprehensive solution that caters to both administrators and learners.",
+  //   image: "https://i.ibb.co/3hQjfCZ/Screenshot-from-2023-09-07-22-09-26.png",
+  //   tags: [
+  //     "React Js",
+  //     "MongoDb",
+  //     "Node Js",
+  //     "Express Js",
+  //     "Recoil",
+  //     "MUI",
+  //     "CSS",
+  //     "AWS",
+  //   ],
+  //   category: "Full Stack",
+  //   github: "https://github.com/junaid-arif-24/LearnEra.git",
+  //   webapp: "https://learn-era-admin.vercel.app/",
+  // },
+  // {
+  //   id: 1,
+  //   title: "Real Time Code Editor",
+  //   date: "Sep 2022 - Nov 2023",
+  //   description:
+  //     "Real Time Code Editor is a dynamic web application that seamlessly bridges interactions among multiple users within a single collaborative session. By meticulously executing code synchronization mechanisms, I enabled real-time collaboration among users, ensuring that changes made by each collaborator are immediately reflected for all. This was achieved through the strategic implementation of the socket.io library, which facilitated real-time connectivity and efficient message broadcasting, thus fostering a highly interactive and collaborative virtual environment.",
+  //   image: "https://i.ibb.co/N6xM111/Screenshot-from-2023-09-07-22-08-46.png",
+  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "CodeMirror", "AWS"],
+  //   category: "Full Stack",
+  //   github: "https://github.com/junaid-arif-24/Real-time-code-sync-editor.git",
+  //   webapp: "https://codeeditor.millionaireupstart.com/",
+  // },
+  // {
+  //   id: 2,
+  //   title: "MyOnlineMeal",
+  //   date: "Jan 2023 - Feb 2023",
+  //   description:
+  //     "MyOnlineMeal stands as an inventive online food delivery platform brought to life through the synergy of ReactJS and JavaScript. By meticulously crafting intuitive user interfaces and incorporating dynamic features, I significantly heightened user engagement and satisfaction. Leveraging the power of ReactJS components and libraries, I efficiently managed and presented food menus, while also streamlining the intricacies of order processing. The result is a seamless and delightful dining experience for users, exemplifying the potential of innovative technology in the culinary landscape.",
+  //   image: "https://i.ibb.co/882gcQb/Screenshot-from-2023-09-07-22-14-12.png",
+  //   tags: ["React", "JavaScript", "CSS", "AWS"],
+  //   category: "Frontend",
+  //   github: "https://github.com/junaid-arif-24/MyOnlineMeal.git",
+  //   webapp: "https://my-online-meal-24.netlify.app/",
+  // },
+  // {
+  //   id: 3,
+  //   title: "TodoApp",
+  //   date: "Jun 2023 - July 2023",
+  //   description:
+  //     "Todo is a user-friendly single-page application developed to streamline task management using the React Js. By seamlessly integrating this technology, I designed a cohesive platform that allows users to efficiently organize, update, and monitor their tasks.",
+  //   image: "https://i.ibb.co/SNK6dyY/Screenshot-from-2023-09-07-22-10-21.png",
+  //   tags: ["React Js", "JavaScript", "CSS", "Netlify"],
+  //   category: "Frontend",
+  //   github: "https://github.com/junaid-arif-24/TodoApp.git",
+  //   webapp: "https://todo-app-junaid.netlify.app/",
+  // },
 
   {
     id: 5,

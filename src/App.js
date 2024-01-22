@@ -16,14 +16,17 @@ import Services from "./components/services/index.js";
 import Work from "./components/work/index.js";
 
 const Body = styled.div`
-  background-color: ${({ theme }) => theme.bg};
+  ${'' /* background-color: ${({ theme }) => theme.bg}; */}
 
   width: 100%;
   overflow-x: hidden;
+
 `;
 
 const Wrapper = styled.div`
-  background: linear-gradient(
+  background: rgb(47,22,31);
+background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(10,11,22,1) 23%, rgba(14,14,34,1) 53%, rgba(29,23,23,1) 86%);
+  ${'' /* background: linear-gradient(
       38.73deg,
       rgba(204, 0, 187, 0.15) 0%,
       rgba(201, 32, 184, 0) 50%
@@ -32,9 +35,9 @@ const Wrapper = styled.div`
       141.27deg,
       rgba(0, 70, 209, 0) 50%,
       rgba(0, 70, 209, 0.15) 100%
-    );
+    ); */}
   width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
+  ${'' /* clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%); */}
 `;
 function App() {
   const [darkMode] = useState(true);
@@ -43,26 +46,29 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router>
-        <Navbar />
+      <Wrapper>
+      <Navbar />
         <Body>
           <HeroSection />
-          <Wrapper>
+          {/* <Wrapper> */}
             <Services />
             <Work />
-          </Wrapper>
-          <Wrapper>
+          {/* </Wrapper> */}
+          {/* <Wrapper> */}
             {/* <Experience /> */}
             <Skills />
-          </Wrapper>
+          {/* </Wrapper> */}
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
-          <Wrapper>
+          {/* <Wrapper> */}
             <Contact />
-          </Wrapper>
+          {/* </Wrapper> */}
           <Footer />
           {openModal.state && (
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           )}
         </Body>
+      </Wrapper>
+        
       </Router>
     </ThemeProvider>
   );

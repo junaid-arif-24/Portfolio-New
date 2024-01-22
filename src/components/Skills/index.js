@@ -7,6 +7,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 position: relative;
+padding-bottom:30px;
 z-index: 1;
 align-items: center;
 `
