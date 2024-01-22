@@ -26,16 +26,8 @@ const Body = styled.div`
 const Wrapper = styled.div`
   background: rgb(47,22,31);
 background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(10,11,22,1) 23%, rgba(14,14,34,1) 53%, rgba(29,23,23,1) 86%);
-  ${'' /* background: linear-gradient(
-      38.73deg,
-      rgba(204, 0, 187, 0.15) 0%,
-      rgba(201, 32, 184, 0) 50%
-    ),
-    linear-gradient(
-      141.27deg,
-      rgba(0, 70, 209, 0) 50%,
-      rgba(0, 70, 209, 0.15) 100%
-    ); */}
+${'' /* background: rgb(4,4,5);
+background: linear-gradient(90deg, rgba(4,4,5,1) 10%, rgba(10,11,22,1) 23%, rgba(14,14,34,1) 56%, rgba(3,2,2,1) 87%); */}
   width: 100%;
   ${'' /* clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%); */}
 `;

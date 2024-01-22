@@ -1,5 +1,5 @@
 export const Bio = {
-  title:"We build strategically-driven websites that enhance online presence and boost sales.",
+  title:"We build strategically-driven websites that enhance online presence and boost sales.",
   roles: ["Full Stack Developer", "Frontend Developer", "Programmer"],
   description:" Relinquish the weight of responsibility. we've got your back. Devote your energy to propelling your business forward and conquering your loftiest aspirations.",
   github: "https://github.com/junaid-arif-24",

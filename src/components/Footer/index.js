@@ -87,12 +87,12 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Mohd Junaid</Logo>
+        <Logo>Hexode IT Solutions</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#contact">Contact Us</NavLink>
           
         </Nav>
         <SocialMediaIcons>
@@ -101,7 +101,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Mohd Junaid. All rights reserved.
+          &copy; 2024 Hexode. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

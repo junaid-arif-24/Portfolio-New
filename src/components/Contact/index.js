@@ -123,10 +123,10 @@ const ContactButton = styled.input`
 const Contact = () => {
 
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Desc>Feel free to reach out to us for any queries!</Desc>
         <ContactForm action='https://getform.io/f/c5f4a842-5745-44f4-9ce7-e345417e1104' method='POST'>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="email" />

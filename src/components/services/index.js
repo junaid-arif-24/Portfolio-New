@@ -21,7 +21,7 @@ const Wrapper = styled.div`
   align-items: center;
   flex-direction: column;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   gap: 12px;
 
   @media (max-width: 960px) {
@@ -58,40 +58,52 @@ const ServiceContainer = styled.div`
   display: flex;
   ${'' /* flex-wrap: wrap; */}
   margin-top: 30px;
-  gap: 30px;
+  gap: 20px;
   justify-content: center;
+  @media (max-width: 768px) {
+    flex-direction:column;
+    align-items:center;
+
+  }
 `;
 
 const ServiceCard = styled.div`
   width: 100%;
-  max-width: 350px;
-  max-height: 650px;
+  max-width: 600px;
+  max-height: 500px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
   padding: 20px;
   background: ${({ theme }) => theme.card};
-  border: 0.1px solid #854CE6;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border: 0.1px solid white;
+  ${'' /* box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px; */}
   border-radius: 16px;
-  padding: 18px 36px;
+  ${'' /* padding: 18px 36px; */}
 
   @media (max-width: 768px) {
     max-width: 400px;
-    padding: 10px 24px;
+    padding: 20px 30px;
+    gap: 20px;
   }
 
   @media (max-width: 500px) {
-    max-width: 330px;
-    padding: 10px 16px;
+    max-width: 400px;
+    padding: 20px 22px;
+    gap: 20px;
+
   }
 `;
 
 const ServiceImage = styled.div`
   width: 100%;
   display: flex;
+  
   justify-content: flex-start;
+  @media (max-width: 768px) {
+    justify-content:center;
+  }
 `;
 
 const ServiceTitle = styled.p`
@@ -100,6 +112,11 @@ const ServiceTitle = styled.p`
   font-weight: 700;
   line-height: 40px;
   color: white;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  line-height: 30px;
+    text-align:center;
+  }
 `;
 
 const ServiceDesc = styled.p`
@@ -107,9 +124,19 @@ const ServiceDesc = styled.p`
   line-height: 22px;
   font-size: 14px;
   color: white;
+  @media (max-width: 768px) {
+    text-align:center;
+  }
 `;
 
-
+const ServiceLogo = styled.img`
+width:80px;
+height:80px;
+@media (max-width: 768px) {
+  width:70px;
+height:70px;
+  }
+`
 
 const Services = () => {
   return (
@@ -124,7 +151,7 @@ Services We Offer
   services.map((service,index)=>{
     return(<ServiceCard key={index}> 
     <ServiceImage>
-      <img alt="service" height={"100px"} width={"100px"} src ={service.image} />
+      <ServiceLogo alt="service"  src ={service.image} />
     </ServiceImage>
     <ServiceTitle>{service.title}</ServiceTitle>
     <ServiceDesc>{service.desc}</ServiceDesc>
