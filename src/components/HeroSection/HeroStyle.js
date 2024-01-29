@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const HeroContainer = styled.div`
-${'' /* background: rgb(47,22,31);
-background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(10,11,22,1) 23%, rgba(14,14,34,1) 53%, rgba(29,23,23,1) 86%); */}
+  ${
+    "" /* background: rgb(47,22,31);
+background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(10,11,22,1) 23%, rgba(14,14,34,1) 53%, rgba(29,23,23,1) 86%); */
+  }
   display: flex;
   justify-content: center;
   position: relative;
@@ -11,11 +13,11 @@ background: linear-gradient(94deg, rgba(47,22,31,1) 13%, rgba(10,11,22,1) 23%, r
     padding: 66px 16px;
   }
   @media (max-width: 640) {
-    padding: 32px 16px;
+    padding: 32px 14px;
   }
-  ${'' /* z-index: 1; */}
+  ${"" /* z-index: 1; */}
 
-  ${'' /* clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%); */}
+  ${"" /* clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%); */}
 `;
 
 export const HeroBg = styled.div`
@@ -45,7 +47,7 @@ export const HeroBg = styled.div`
 export const HeroInnerContainer = styled.div`
   position: relative;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
 
   align-items: center;
@@ -54,6 +56,7 @@ export const HeroInnerContainer = styled.div`
 
   @media (max-width: 960px) {
     flex-direction: column;
+    
   }
 `;
 export const HeroLeftContainer = styled.div`
@@ -117,10 +120,13 @@ export const Img = styled.img`
 export const Title = styled.h1`
   font-weight: 900;
   font-size: 60px;
-  text-align:center;
+  text-align: center;
   color: ${({ theme }) => theme.text_primary};
   line-height: 70px;
   @media (max-width: 960px) {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
     text-align: center;
   }
 
@@ -157,18 +163,21 @@ export const SubTitle = styled.div`
   font-size: 18px;
   line-height: 42px;
   margin-bottom: 42px;
-  margin-top:20px;
+  margin-top: 20px;
   text-align: center;
   color: white;
-  width:70%;
+  width: 70%;
 
   @media (max-width: 960px) {
     text-align: center;
+    width: 90%;
   }
 
   @media (max-width: 640px) {
     font-size: 16px;
     line-height: 32px;
+  width: 90%;
+
   }
 `;
 

@@ -91,8 +91,9 @@ const CircleElement = styled.div`
   top: 5px;
 
   @media (max-width: 768px) {
-    left: 0;
-    margin-bottom: 15px;
+    left: 26px;
+  top: 5px;
+    ${'' /* margin-bottom: 15px; */}
   }
 `;
 
@@ -101,13 +102,16 @@ const CircleNumberContainer = styled.div`
   align-items: center;
 `;
 
-const ColorHeading = styled.b`
+const ColorHeading = styled.span`
+  font-size: 45px;
   font-weight: bold;
   background: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%);
   background-clip: text; /* Clip the gradient to the text */
   -webkit-background-clip: text; /* For older webkit browsers */
   color: transparent; /* Set the text color to transparent */
 `;
+
+
 
 // @media (max-width: 768px) {
 //   ${CircleElement} {
